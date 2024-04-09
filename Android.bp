@@ -258,12 +258,6 @@ dex_import {
 }
 
 dex_import {
-	name: "oplus-framework",
-	owner: "oplus",
-	jars: ["proprietary/framework/oplus-framework.jar"],
-}
-
-dex_import {
 	name: "com.android.hotwordenrollment.common.util",
 	owner: "oplus",
 	jars: ["proprietary/system_ext/framework/com.android.hotwordenrollment.common.util.jar"],

@@ -1502,7 +1502,6 @@ PRODUCT_PACKAGES += \
     mediatek-telecom-common \
     mediatek-telephony-base \
     mediatek-telephony-common \
-    oplus-framework \
     com.android.hotwordenrollment.common.util \
     vendor.oplus.hardware.performance-V1.0-java \
     android.hardware.neuralnetworks@1.3-service-mtk-mdla-dsp-gpu \

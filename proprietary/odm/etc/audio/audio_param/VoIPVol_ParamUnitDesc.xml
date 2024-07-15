@@ -21,6 +21,6 @@
 	</CategoryTypeList>
 	<ParamUnit>
 		<Param name="dl_gain" type="short_array"/><!-- unit is dB, range in other xml -->
-		<Param name="ul_gain" type="byte_array"/><!-- unit is dB, range in other xml -->
+		<Param name="ul_gain" type="int"/><!-- unit is dB, range in other xml -->
 	</ParamUnit>
 </ParamUnitDesc>

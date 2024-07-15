@@ -11,7 +11,7 @@
 			<Category name="BT" alias="BT earphone,BT_Earphone,BT_NREC_Off,BLUETOOTH_PATH,STEREO_BLUETOOTH_PATH,BT_NSEC_OFF_PATH,BLUETOOTH_16_PATH,BT_NSEC_OFF_16_PATH,BT_NREC_On_NB,BT_NREC_On_WB"/>
 			<Category name="TTY" alias="Tty_HCO_Handset,Tty_VCO_Handset,Tty_HCO_Handsfree,Tty_VCO_Handsfree,TTY_PATH"/>
 			<Category name="USB" alias="Usb_Headset"/>
-			<Category name="HEARING_AID" alias="Hearing_Aid"/>
+			<Category name="HEARING_AID" alias="HEARING_AID"/>
 			<Category name="MISC" alias="HFK_PATH,CALLFWD_PATH,SLD_PATH,SPEAKERDOCK_PATH,SPEAKERDOCK_EV_PATH"/>
 		</CategoryType>
 	</CategoryTypeList>

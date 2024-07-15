@@ -9,14 +9,13 @@
 			<Category name="smartpa_cirrus_cs35l35"/>
 			<Category name="smartpa_mtk_dummy"/>
 			<Category name="smartpa_mtk_mt6660"/>
-			<Category name="smartpa_richtek_rt5512"/>
 			<Category name="smartpa_nxp_tfa9874"/>
 		</CategoryType>
 	</CategoryTypeList>
 	<ParamUnit>
 	    <Param name="have_dsp" type="int"/>
 		<Param name="is_alsa_codec" type="int"/>
-		<Param name="chip_delay_us" type="uint_array"/>
+		<Param name="chip_delay_us" type="uint"/>
 		<Param name="supported_rate_list" type="uint_array"/>
 		<Param name="spk_lib_path" type="string"/>
 		<Param name="spk_lib64_path" type="string"/>

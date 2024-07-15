@@ -5,7 +5,6 @@
 			<Category name="Default"/>
 			<Category name="App1"/>
 			<Category name="App2"/>
-			<Category name="HDR_RECORD"/>
 		</CategoryType>
 		<CategoryType name="Application">
 			<!-- tunable -->
@@ -14,7 +13,6 @@
 			<Category name="CUSTOMIZATION1" wording="ASR improvement" alias="ASR"/>
 			<Category name="VR" wording="Voice recognition"/>
 			<Category name="VoicePerformance" wording="Voice performance recording"/>
-			<Category name="KTV" wording="In Ear Monitor"/>
 			<!-- not tunable -->
 			<Category name="VOICE_UNLOCK" alias="VoiceUnLk"/>
 			<Category name="CUSTOMIZATION2" alias="Customization2"/>
@@ -31,6 +29,6 @@
 		</CategoryType>
 	</CategoryTypeList>
 	<ParamUnit>
-		<Param name="ul_gain" type="byte_array"/>
+		<Param name="ul_gain" type="int"/>
 	</ParamUnit>
 </ParamUnitDesc>

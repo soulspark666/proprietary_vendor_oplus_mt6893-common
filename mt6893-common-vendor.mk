@@ -290,6 +290,7 @@ PRODUCT_COPY_FILES += \
     vendor/oplus/mt6893-common/proprietary/odm/lib64/hw/fingerprint.goodix_G5.default.so:$(TARGET_COPY_OUT_ODM)/lib64/hw/fingerprint.goodix_G5.default.so \
     vendor/oplus/mt6893-common/proprietary/odm/lib64/hw/fingerprint.goodix_G6.default.so:$(TARGET_COPY_OUT_ODM)/lib64/hw/fingerprint.goodix_G6.default.so \
     vendor/oplus/mt6893-common/proprietary/odm/lib64/hw/fingerprint.goodix_G7.default.so:$(TARGET_COPY_OUT_ODM)/lib64/hw/fingerprint.goodix_G7.default.so \
+    vendor/oplus/mt6893-common/proprietary/odm/lib64/libPolarrRender.so:$(TARGET_COPY_OUT_ODM)/lib64/libPolarrRender.so \
     vendor/oplus/mt6893-common/proprietary/odm/lib64/lib_aurisys_lvimfs.so:$(TARGET_COPY_OUT_ODM)/lib64/lib_aurisys_lvimfs.so \
     vendor/oplus/mt6893-common/proprietary/odm/lib64/libadsprpc.so:$(TARGET_COPY_OUT_ODM)/lib64/libadsprpc.so \
     vendor/oplus/mt6893-common/proprietary/odm/lib64/libavcodec.so:$(TARGET_COPY_OUT_ODM)/lib64/libavcodec.so \
@@ -1200,7 +1201,6 @@ PRODUCT_COPY_FILES += \
     vendor/oplus/mt6893-common/proprietary/vendor/lib64/libJpgEncPipe.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libJpgEncPipe.so \
     vendor/oplus/mt6893-common/proprietary/vendor/lib64/libNoFpsActor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libNoFpsActor.so \
     vendor/oplus/mt6893-common/proprietary/vendor/lib64/libOpenCL.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOpenCL.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/libPolarrRender.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libPolarrRender.so \
     vendor/oplus/mt6893-common/proprietary/vendor/lib64/libSQLiteModule_VER_ALL.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libSQLiteModule_VER_ALL.so \
     vendor/oplus/mt6893-common/proprietary/vendor/lib64/libSensorSave.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libSensorSave.so \
     vendor/oplus/mt6893-common/proprietary/vendor/lib64/lib_bsscore.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib_bsscore.so \

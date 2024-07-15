@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ParamUnitDesc tab_name="Voice" version="1.0">
+<ParamUnitDesc tab_name="Voice" version="1.3">
 	<CategoryTypeList>
 		<CategoryType name="Scene" feature_option="VIR_SCENE_CUSTOMIZATION_SUPPORT">
 			<Category name="Default" wording="Default"/>
@@ -49,9 +49,6 @@
 			<CategoryGroup name="Super Volume" feature_option="SPH_PARAM_SV">
 				<Category name="Handset_SV"/>
 				<Category name="Handsfree_SV"/>
-			</CategoryGroup>
-			<CategoryGroup name="Hearing Aid">
-				<Category name="Hearing_Aid" feature_option="MTK_BT_HEARING_AID_SUPPORT"/>
 			</CategoryGroup>
 		</CategoryType>
 		<CategoryType name="VolIndex" wording="Volume">
@@ -432,6 +429,5 @@
 		<Param name="sph_in_iir_mic2_pmv_type" type="ushort_array"/>
 		<Param name="sph_in_iir_mic1_pmv_qfactor" type="double_array"/>
 		<Param name="sph_in_iir_mic2_pmv_qfactor" type="double_array"/>
-		<Param name="speech_mode_para_ext" type="ushort_array"/>
 	</ParamUnit>
 </ParamUnitDesc>

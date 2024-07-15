@@ -50,9 +50,6 @@
 				<Category name="Handset_SV"/>
 				<Category name="Handsfree_SV"/>
 			</CategoryGroup>
-			<CategoryGroup name="Hearing Aid">
-				<Category name="Hearing_Aid" feature_option="MTK_BT_HEARING_AID_SUPPORT"/>
-			</CategoryGroup>
 		</CategoryType>
 		<CategoryType name="VolIndex" wording="Volume">
 			<CategoryGroup name="Index">

@@ -21,7 +21,6 @@
 			<Category name="VoicePerformance" wording="Voice performance recording" />
 			<Category name="VoiceUnLk" visible="false" />
 			<Category name="Customization2" visible="false" />
-			<Category name="KTV" wording="In Ear Monitor"/>
 		</CategoryType>
 		<CategoryType name="Profile" wording="Device">
 			<Category name="Handset"/>

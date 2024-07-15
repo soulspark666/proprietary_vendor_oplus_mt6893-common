@@ -3,21 +3,20 @@
 	<CategoryTypeList>
 		<CategoryType name="HpImpedance">
 			<Category name="Common"/>
-			<Category name="mt3967"/>
-			<Category name="mt6735"/>
-			<Category name="mt6755"/>
-			<Category name="mt6757"/>
-			<Category name="mt6759"/>
-			<Category name="mt6763"/>
-			<Category name="mt6771"/>
-			<Category name="mt6775"/>
-			<Category name="mt6779"/>
-			<Category name="mt6785"/>
-			<Category name="mt6797"/>
-			<Category name="mt6799"/>
-			<Category name="mt6885"/>
-			<Category name="mt6893"/>
-			<Category name="mt8167"/>
+			<Category name="MT3967"/>
+			<Category name="MT6735"/>
+			<Category name="MT6755"/>
+			<Category name="MT6757"/>
+			<Category name="MT6759"/>
+			<Category name="MT6763"/>
+			<Category name="MT6771"/>
+			<Category name="MT6775"/>
+			<Category name="MT6779"/>
+			<Category name="MT6785"/>
+			<Category name="MT6797"/>
+			<Category name="MT6799"/>
+			<Category name="MT6885"/>
+			<Category name="MT8167"/>
 			<Category name="ELBRUS"/>
 		</CategoryType>
 	</CategoryTypeList>

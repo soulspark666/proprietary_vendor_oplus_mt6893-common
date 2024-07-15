@@ -19,7 +19,6 @@
     <Param path="5-pole HS+ANC" param_id="6"/>
     <Param path="ASR,5-pole HS" param_id="7"/>
     <Param path="ASR,5-pole HS+ANC" param_id="7"/>
-    <Param path="KTV" param_id="8"/>
   </ParamTree>
   <ParamUnitPool>
     <ParamUnit param_id="0">
@@ -124,19 +123,6 @@
       <Param name="UL NLP visibility" value="1"/>
       <Param name="UL ES LB visibility" value="1"/>
       <Param name="UL AES LB visibility" value="1"/>
-      <Param name="UL Sample Rate" value="16000"/>
-    </ParamUnit>
-    <ParamUnit param_id="8">
-      <Param name="DRC+DG visibility" value="-1"/>
-      <Param name="FIR visibility" value="-1"/>
-      <Param name="NREC visibility" value="-1"/>
-      <Param name="UL cal. visibility" value="-1"/>
-      <Param name="UL Digital Gain visibility" value="-1"/>
-      <Param name="UL Limiter TH visibility" value="-1"/>
-      <Param name="UL AEC visibility" value="-1"/>
-      <Param name="UL NLP visibility" value="-1"/>
-      <Param name="UL ES LB visibility" value="-1"/>
-      <Param name="UL AES LB visibility" value="-1"/>
       <Param name="UL Sample Rate" value="16000"/>
     </ParamUnit>
   </ParamUnitPool>

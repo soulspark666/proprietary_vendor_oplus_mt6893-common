@@ -6,7 +6,7 @@
     <Param path="4_pole_Headset" param_id="1"/>
     <Param path="5_pole_Headset" param_id="1"/>
     <Param path="5_pole_Headset+ANC" param_id="1"/>
-    <Param path="Handsfree" param_id="1"/>
+    <Param path="Handsfree" param_id="0"/>
     <Param path="BT_Earphone" param_id="1"/>
     <Param path="BT_NREC_Off" param_id="1"/>
     <Param path="MagiConference" param_id="0"/>

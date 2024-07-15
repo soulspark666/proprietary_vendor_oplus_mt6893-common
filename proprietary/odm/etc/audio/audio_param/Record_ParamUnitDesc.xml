@@ -3,8 +3,8 @@
 	<CategoryTypeList>
 		<CategoryType name="Scene" feature_option="VIR_SCENE_CUSTOMIZATION_SUPPORT">
 			<Category name="Default" wording="Default"/>
-			<Category name="App1" wording="Application1" visible="true"/>
-			<Category name="App2" wording="Application2" visible="true"/>
+			<Category name="App1" wording="Application1" visible="false"/>
+			<Category name="App2" wording="Application2" visible="false"/>
 		</CategoryType>
 		<CategoryType name="Application">
 			<Category name="SndRecNormal" wording="Sound recording"/>
@@ -20,7 +20,6 @@
 			<Category name="Unprocessed" visible="false"/>
 			<Category name="IncallRecord" visible="false"/>
 			<Category name="VoicePerformance" wording="Voice performance recording"/>
-			<Category name="KTV" wording="In Ear Monitor"/>
 		</CategoryType>
 		<CategoryType name="Profile" wording="Device">
 			<Category name="Handset"/>

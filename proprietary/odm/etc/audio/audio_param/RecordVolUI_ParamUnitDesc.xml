@@ -25,7 +25,6 @@
 			<Category name="FastRecord" visible="false"/>
 			<Category name="Unprocessed"/>
 			<Category name="IncallRecord"/>
-			<Category name="KTV" wording="In Ear Monitor"/>
 		</CategoryType>
 		<CategoryType name="Profile" wording="Device">
 			<Category name="Handset"/>

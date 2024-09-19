@@ -1487,28 +1487,22 @@ PRODUCT_PACKAGES += \
     GpuGameDriver.mt6893 \
     HotwordEnrollmentOKGoogleRISCV \
     HotwordEnrollmentXGoogleRISCV \
-    mediatek-carrier-config-manager \
     mediatek-common \
     mediatek-framework \
-    mediatek-gwsd \
-    mediatek-gwsdv2 \
     mediatek-ims-base \
     mediatek-ims-common \
     mediatek-ims-extension-plugin \
     mediatek-services \
-    mediatek-telecom-common \
-    mediatek-telephony-base \
-    mediatek-telephony-common \
     com.android.hotwordenrollment.common.util \
     vendor.oplus.hardware.performance-V1.0-java \
-    android.hardware.neuralnetworks@1.3-service-mtk-mdla-dsp-gpu \
-    android.hardware.wifi@1.0-service \
-    lbs_hidl_service@1.0 \
-    manifest_android.hardware.drm@1.4-service.widevine \
-    manifest_hwcomposer \
-    manifest_media_c2_V1_1_default \
-    manifest_oplusSensor \
-    manifest_oplus_charger \
-    manifest_oplus_fingerprint \
-    manifest_oplus_performance \
-    vendor.oplus.hardware.olc@2.0-service
+    android.hardware.neuralnetworks@1.3-service-mtk-mdla-dsp-gpu.xml \
+    android.hardware.wifi@1.0-service.xml \
+    lbs_hidl_service@1.0.xml \
+    manifest_android.hardware.drm@1.4-service.widevine.xml \
+    manifest_hwcomposer.xml \
+    manifest_media_c2_V1_1_default.xml \
+    manifest_oplusSensor.xml \
+    manifest_oplus_charger.xml \
+    manifest_oplus_fingerprint.xml \
+    manifest_oplus_performance.xml \
+    vendor.oplus.hardware.olc@2.0-service.xml

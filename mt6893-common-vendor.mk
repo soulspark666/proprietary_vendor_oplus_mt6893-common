@@ -296,7 +296,6 @@ PRODUCT_COPY_FILES += \
     vendor/oplus/mt6893-common/proprietary/odm/lib64/hw/fingerprint.goodix_G5.default.so:$(TARGET_COPY_OUT_ODM)/lib64/hw/fingerprint.goodix_G5.default.so \
     vendor/oplus/mt6893-common/proprietary/odm/lib64/hw/fingerprint.goodix_G6.default.so:$(TARGET_COPY_OUT_ODM)/lib64/hw/fingerprint.goodix_G6.default.so \
     vendor/oplus/mt6893-common/proprietary/odm/lib64/hw/fingerprint.goodix_G7.default.so:$(TARGET_COPY_OUT_ODM)/lib64/hw/fingerprint.goodix_G7.default.so \
-    vendor/oplus/mt6893-common/proprietary/odm/lib64/libPolarrRender.so:$(TARGET_COPY_OUT_ODM)/lib64/libPolarrRender.so \
     vendor/oplus/mt6893-common/proprietary/odm/lib64/lib_aurisys_lvimfs.so:$(TARGET_COPY_OUT_ODM)/lib64/lib_aurisys_lvimfs.so \
     vendor/oplus/mt6893-common/proprietary/odm/lib64/libadsprpc.so:$(TARGET_COPY_OUT_ODM)/lib64/libadsprpc.so \
     vendor/oplus/mt6893-common/proprietary/odm/lib64/libavcodec.so:$(TARGET_COPY_OUT_ODM)/lib64/libavcodec.so \
@@ -900,9 +899,6 @@ PRODUCT_COPY_FILES += \
     vendor/oplus/mt6893-common/proprietary/vendor/lib/egl/libMEOW_qt.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libMEOW_qt.so \
     vendor/oplus/mt6893-common/proprietary/vendor/lib/egl/libMEOW_trace.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libMEOW_trace.so \
     vendor/oplus/mt6893-common/proprietary/vendor/lib/egl/mt6893/libGLES_mali.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/mt6893/libGLES_mali.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/gc02m1_mipi_raw_21127_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/gc02m1_mipi_raw_21127_IdxMgr.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/gc02m1_mipi_raw_21305_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/gc02m1_mipi_raw_21305_IdxMgr.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/gc02m1b_mipi_mono_21127_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/gc02m1b_mipi_mono_21127_IdxMgr.so \
     vendor/oplus/mt6893-common/proprietary/vendor/lib/hw/android.hardware.audio@6.0-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.audio@6.0-impl-mediatek.so \
     vendor/oplus/mt6893-common/proprietary/vendor/lib/hw/android.hardware.audio@7.0-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.audio@7.0-impl-mediatek.so \
     vendor/oplus/mt6893-common/proprietary/vendor/lib/hw/android.hardware.bluetooth@1.1-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.bluetooth@1.1-impl-mediatek.so \
@@ -923,13 +919,6 @@ PRODUCT_COPY_FILES += \
     vendor/oplus/mt6893-common/proprietary/vendor/lib/hw/vendor.mediatek.hardware.mms@1.6-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.mediatek.hardware.mms@1.6-impl.so \
     vendor/oplus/mt6893-common/proprietary/vendor/lib/hw/vendor.mediatek.hardware.nvram@1.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.mediatek.hardware.nvram@1.1-impl.so \
     vendor/oplus/mt6893-common/proprietary/vendor/lib/hw/vendor.mediatek.hardware.pq@2.15-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.mediatek.hardware.pq@2.15-impl.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/imx355_mipi_raw_21305_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/imx355_mipi_raw_21305_IdxMgr.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/imx471_mipi_raw_21127_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/imx471_mipi_raw_21127_IdxMgr.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/imx615_mipi_raw_21305_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/imx615_mipi_raw_21305_IdxMgr.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/imx709_mipi_raw_21127_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/imx709_mipi_raw_21127_IdxMgr.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/imx709_mipi_raw_21305_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/imx709_mipi_raw_21305_IdxMgr.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/imx766_mipi_raw_21305_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/imx766_mipi_raw_21305_IdxMgr.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/lib3a.dce.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib3a.dce.so \
     vendor/oplus/mt6893-common/proprietary/vendor/lib/libAVCSecureVencCA.so:$(TARGET_COPY_OUT_VENDOR)/lib/libAVCSecureVencCA.so \
     vendor/oplus/mt6893-common/proprietary/vendor/lib/libDefaultFpsActor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libDefaultFpsActor.so \
     vendor/oplus/mt6893-common/proprietary/vendor/lib/libFrameRecord.so:$(TARGET_COPY_OUT_VENDOR)/lib/libFrameRecord.so \
@@ -1126,7 +1115,6 @@ PRODUCT_COPY_FILES += \
     vendor/oplus/mt6893-common/proprietary/vendor/lib/mt6893/libneuron_platform.vpu.so:$(TARGET_COPY_OUT_VENDOR)/lib/mt6893/libneuron_platform.vpu.so \
     vendor/oplus/mt6893-common/proprietary/vendor/lib/mt6893/libnir_neon_driver.so:$(TARGET_COPY_OUT_VENDOR)/lib/mt6893/libnir_neon_driver.so \
     vendor/oplus/mt6893-common/proprietary/vendor/lib/mt6893/libpq_prot.so:$(TARGET_COPY_OUT_VENDOR)/lib/mt6893/libpq_prot.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/ov50a_mipi_raw_21127_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/ov50a_mipi_raw_21127_IdxMgr.so \
     vendor/oplus/mt6893-common/proprietary/vendor/lib/vendor.mediatek.hardware.apmonitor@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.apmonitor@2.0.so \
     vendor/oplus/mt6893-common/proprietary/vendor/lib/vendor.mediatek.hardware.apuware.utils@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.apuware.utils@2.0.so \
     vendor/oplus/mt6893-common/proprietary/vendor/lib/vendor.mediatek.hardware.audio@6.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.audio@6.1.so \
@@ -1182,9 +1170,6 @@ PRODUCT_COPY_FILES += \
     vendor/oplus/mt6893-common/proprietary/vendor/lib64/egl/libMEOW_qt.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libMEOW_qt.so \
     vendor/oplus/mt6893-common/proprietary/vendor/lib64/egl/libMEOW_trace.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libMEOW_trace.so \
     vendor/oplus/mt6893-common/proprietary/vendor/lib64/egl/mt6893/libGLES_mali.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/mt6893/libGLES_mali.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/gc02m1_mipi_raw_21127_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/gc02m1_mipi_raw_21127_IdxMgr.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/gc02m1_mipi_raw_21305_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/gc02m1_mipi_raw_21305_IdxMgr.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/gc02m1b_mipi_mono_21127_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/gc02m1b_mipi_mono_21127_IdxMgr.so \
     vendor/oplus/mt6893-common/proprietary/vendor/lib64/hw/android.hardware.audio@6.0-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.audio@6.0-impl-mediatek.so \
     vendor/oplus/mt6893-common/proprietary/vendor/lib64/hw/android.hardware.audio@7.0-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.audio@7.0-impl-mediatek.so \
     vendor/oplus/mt6893-common/proprietary/vendor/lib64/hw/android.hardware.bluetooth@1.1-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.bluetooth@1.1-impl-mediatek.so \
@@ -1208,12 +1193,6 @@ PRODUCT_COPY_FILES += \
     vendor/oplus/mt6893-common/proprietary/vendor/lib64/hw/vendor.mediatek.hardware.nvram@1.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.mediatek.hardware.nvram@1.1-impl.so \
     vendor/oplus/mt6893-common/proprietary/vendor/lib64/hw/vendor.mediatek.hardware.pq@2.15-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.mediatek.hardware.pq@2.15-impl.so \
     vendor/oplus/mt6893-common/proprietary/vendor/lib64/hw/vendor.mediatek.hardware.videotelephony@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.mediatek.hardware.videotelephony@1.0-impl.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/imx355_mipi_raw_21305_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/imx355_mipi_raw_21305_IdxMgr.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/imx471_mipi_raw_21127_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/imx471_mipi_raw_21127_IdxMgr.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/imx615_mipi_raw_21305_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/imx615_mipi_raw_21305_IdxMgr.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/imx709_mipi_raw_21127_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/imx709_mipi_raw_21127_IdxMgr.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/imx709_mipi_raw_21305_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/imx709_mipi_raw_21305_IdxMgr.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/imx766_mipi_raw_21305_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/imx766_mipi_raw_21305_IdxMgr.so \
     vendor/oplus/mt6893-common/proprietary/vendor/lib64/lbs_hidl_service-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lbs_hidl_service-impl.so \
     vendor/oplus/mt6893-common/proprietary/vendor/lib64/libAVCSecureVencCA.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libAVCSecureVencCA.so \
     vendor/oplus/mt6893-common/proprietary/vendor/lib64/libDefaultFpsActor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libDefaultFpsActor.so \
@@ -1420,7 +1399,6 @@ PRODUCT_COPY_FILES += \
     vendor/oplus/mt6893-common/proprietary/vendor/lib64/mt6893/libneuron_runtime.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6893/libneuron_runtime.so \
     vendor/oplus/mt6893-common/proprietary/vendor/lib64/mt6893/libnir_neon_driver.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6893/libnir_neon_driver.so \
     vendor/oplus/mt6893-common/proprietary/vendor/lib64/mt6893/libpq_prot.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6893/libpq_prot.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/ov50a_mipi_raw_21127_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/ov50a_mipi_raw_21127_IdxMgr.so \
     vendor/oplus/mt6893-common/proprietary/vendor/lib64/vendor.mediatek.hardware.apmonitor@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.apmonitor@2.0.so \
     vendor/oplus/mt6893-common/proprietary/vendor/lib64/vendor.mediatek.hardware.apuware.apusys@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.apuware.apusys@2.0.so \
     vendor/oplus/mt6893-common/proprietary/vendor/lib64/vendor.mediatek.hardware.apuware.apusys@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.apuware.apusys@2.1.so \

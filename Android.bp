@@ -96,12 +96,6 @@ dex_import {
 }
 
 dex_import {
-        name: "mediatek-ims-extension-plugin",
-        owner: "oplus",
-        jars: ["proprietary/framework/mediatek-ims-extension-plugin.jar"],
-}
-
-dex_import {
         name: "mediatek-services",
         owner: "oplus",
         jars: ["proprietary/framework/mediatek-services.jar"],

@@ -1015,10 +1015,6 @@ PRODUCT_COPY_FILES += \
     vendor/oplus/mt6893-common/proprietary/vendor/lib64/libadpcmdec_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libadpcmdec_mtk.so \
     vendor/oplus/mt6893-common/proprietary/vendor/lib64/libadsprpc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libadsprpc.so \
     vendor/oplus/mt6893-common/proprietary/vendor/lib64/libaedv.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaedv.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/libaibc_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaibc_tuning.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/libaibc_tuning_p2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaibc_tuning_p2.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/libaibc_tuning_p3.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaibc_tuning_p3.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/libaidepth_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaidepth_tuning.so \
     vendor/oplus/mt6893-common/proprietary/vendor/lib64/libainrcore.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libainrcore.so \
     vendor/oplus/mt6893-common/proprietary/vendor/lib64/libaispq.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaispq.so \
     vendor/oplus/mt6893-common/proprietary/vendor/lib64/libapmonitor_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libapmonitor_vendor.so \

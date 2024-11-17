@@ -849,7 +849,6 @@ PRODUCT_COPY_FILES += \
     vendor/oplus/mt6893-common/proprietary/vendor/lib/libmsbc_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmsbc_mtk.so \
     vendor/oplus/mt6893-common/proprietary/vendor/lib/libmsnr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmsnr.so \
     vendor/oplus/mt6893-common/proprietary/vendor/lib/libmtcloader.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtcloader.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib/libmtkperf_client_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkperf_client_vendor.so \
     vendor/oplus/mt6893-common/proprietary/vendor/lib/libneuroeara.so:$(TARGET_COPY_OUT_VENDOR)/lib/libneuroeara.so \
     vendor/oplus/mt6893-common/proprietary/vendor/lib/libneuron_graph_delegate.mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libneuron_graph_delegate.mtk.so \
     vendor/oplus/mt6893-common/proprietary/vendor/lib/libneuron_wrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libneuron_wrapper.so \
@@ -1126,7 +1125,6 @@ PRODUCT_COPY_FILES += \
     vendor/oplus/mt6893-common/proprietary/vendor/lib64/libmtcloader.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtcloader.so \
     vendor/oplus/mt6893-common/proprietary/vendor/lib64/libmtk-fusion-ril-prop-vsim.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtk-fusion-ril-prop-vsim.so \
     vendor/oplus/mt6893-common/proprietary/vendor/lib64/libmtk-ril.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtk-ril.so \
-    vendor/oplus/mt6893-common/proprietary/vendor/lib64/libmtkperf_client_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkperf_client_vendor.so \
     vendor/oplus/mt6893-common/proprietary/vendor/lib64/libneuroeara.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libneuroeara.so \
     vendor/oplus/mt6893-common/proprietary/vendor/lib64/libneuron_adapter.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libneuron_adapter.so \
     vendor/oplus/mt6893-common/proprietary/vendor/lib64/libneuron_graph_delegate.mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libneuron_graph_delegate.mtk.so \

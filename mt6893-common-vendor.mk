@@ -239,7 +239,6 @@ PRODUCT_COPY_FILES += \
     vendor/oplus/mt6893-common/proprietary/odm/etc/nfc/pnscr/libnfc-nxp-pnscr.conf:$(TARGET_COPY_OUT_ODM)/etc/nfc/pnscr/libnfc-nxp-pnscr.conf \
     vendor/oplus/mt6893-common/proprietary/odm/etc/nfc/sn100u.bin_sn100t_fw_01_10_57:$(TARGET_COPY_OUT_ODM)/etc/nfc/sn100u.bin_sn100t_fw_01_10_57 \
     vendor/oplus/mt6893-common/proprietary/odm/etc/nfc/sn100u.bin_sn100t_fw_01_10_68:$(TARGET_COPY_OUT_ODM)/etc/nfc/sn100u.bin_sn100t_fw_01_10_68 \
-    vendor/oplus/mt6893-common/proprietary/odm/etc/permissions/vendor-oplus-hardware-olc-2.xml:$(TARGET_COPY_OUT_ODM)/etc/permissions/vendor-oplus-hardware-olc-2.xml \
     vendor/oplus/mt6893-common/proprietary/odm/etc/sensor/sensor_config.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/sensor_config.json \
     vendor/oplus/mt6893-common/proprietary/odm/etc/wifi/txpowerctrl.cfg:$(TARGET_COPY_OUT_ODM)/etc/wifi/txpowerctrl.cfg \
     vendor/oplus/mt6893-common/proprietary/odm/etc/wifi/wifi.cfg:$(TARGET_COPY_OUT_ODM)/etc/wifi/wifi.cfg \
@@ -679,7 +678,6 @@ PRODUCT_COPY_FILES += \
     vendor/oplus/mt6893-common/proprietary/vendor/etc/slp_conf:$(TARGET_COPY_OUT_VENDOR)/etc/slp_conf \
     vendor/oplus/mt6893-common/proprietary/vendor/etc/smsdbvisitor.xml:$(TARGET_COPY_OUT_VENDOR)/etc/smsdbvisitor.xml \
     vendor/oplus/mt6893-common/proprietary/vendor/etc/special_pws_channel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/special_pws_channel.xml \
-    vendor/oplus/mt6893-common/proprietary/vendor/etc/usb_audio_accessory_only_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/usb_audio_accessory_only_policy_configuration.xml \
     vendor/oplus/mt6893-common/proprietary/vendor/etc/vendor-apns-conf.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vendor-apns-conf.xml \
     vendor/oplus/mt6893-common/proprietary/vendor/etc/virtual-spn-conf-by-efgid1.xml:$(TARGET_COPY_OUT_VENDOR)/etc/virtual-spn-conf-by-efgid1.xml \
     vendor/oplus/mt6893-common/proprietary/vendor/etc/virtual-spn-conf-by-efpnn.xml:$(TARGET_COPY_OUT_VENDOR)/etc/virtual-spn-conf-by-efpnn.xml \
@@ -1254,9 +1252,9 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     EngineerMode \
     ImsService \
-    GpuGameDriver.mt6893 \
     HotwordEnrollmentOKGoogleRISCV \
     HotwordEnrollmentXGoogleRISCV \
+    mediatek-carrier-config-manager \
     mediatek-common \
     mediatek-framework \
     mediatek-ims-base \
@@ -1268,14 +1266,13 @@ PRODUCT_PACKAGES += \
     mediatek-telephony-common \
     com.android.hotwordenrollment.common.util \
     vendor.oplus.hardware.performance-V1.0-java \
-    android.hardware.neuralnetworks@1.3-service-mtk-mdla-dsp-gpu.xml \
-    android.hardware.wifi@1.0-service.xml \
-    lbs_hidl_service@1.0.xml \
-    manifest_android.hardware.drm@1.4-service.widevine.xml \
-    manifest_hwcomposer.xml \
-    manifest_media_c2_V1_1_default.xml \
-    manifest_oplusSensor.xml \
-    manifest_oplus_charger.xml \
-    manifest_oplus_fingerprint.xml \
-    manifest_oplus_performance.xml \
-    vendor.oplus.hardware.olc@2.0-service.xml
+    android.hardware.neuralnetworks@1.3-service-mtk-mdla-dsp-gpu \
+    android.hardware.wifi@1.0-service \
+    lbs_hidl_service@1.0 \
+    manifest_android.hardware.drm@1.4-service.widevine \
+    manifest_hwcomposer \
+    manifest_media_c2_V1_1_default \
+    manifest_oplusSensor \
+    manifest_oplus_charger \
+    manifest_oplus_fingerprint \
+    manifest_oplus_performance

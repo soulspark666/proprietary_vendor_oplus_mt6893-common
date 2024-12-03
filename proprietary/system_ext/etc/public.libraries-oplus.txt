@@ -1,2 +1,0 @@
-libSloganJni.oplus.so
-libsuperNight.oplus.so

@@ -126,6 +126,32 @@ PRODUCT_COPY_FILES += \
     vendor/oplus/mt6893-common/proprietary/odm/etc/audio/audio_param/VolumeGainMap_ParamUnitDesc.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/audio_param/VolumeGainMap_ParamUnitDesc.xml \
     vendor/oplus/mt6893-common/proprietary/odm/etc/audio/audio_param/Volume_AudioParam.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/audio_param/Volume_AudioParam.xml \
     vendor/oplus/mt6893-common/proprietary/odm/etc/audio/audio_param/Volume_ParamUnitDesc.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/audio_param/Volume_ParamUnitDesc.xml \
+    vendor/oplus/mt6893-common/proprietary/odm/etc/audio/lvimfs_params/LVACFS_Configuration.txt:$(TARGET_COPY_OUT_ODM)/etc/audio/lvimfs_params/LVACFS_Configuration.txt \
+    vendor/oplus/mt6893-common/proprietary/odm/etc/audio/lvimfs_params/LVIMFS_Calibration_2mic.dat:$(TARGET_COPY_OUT_ODM)/etc/audio/lvimfs_params/LVIMFS_Calibration_2mic.dat \
+    vendor/oplus/mt6893-common/proprietary/odm/etc/audio/lvimfs_params/LVIMFS_Parameter_ID10_MIC_VR.txt:$(TARGET_COPY_OUT_ODM)/etc/audio/lvimfs_params/LVIMFS_Parameter_ID10_MIC_VR.txt \
+    vendor/oplus/mt6893-common/proprietary/odm/etc/audio/lvimfs_params/LVIMFS_Parameter_ID11_HE.txt:$(TARGET_COPY_OUT_ODM)/etc/audio/lvimfs_params/LVIMFS_Parameter_ID11_HE.txt \
+    vendor/oplus/mt6893-common/proprietary/odm/etc/audio/lvimfs_params/LVIMFS_Parameter_ID12_HE_APP1.txt:$(TARGET_COPY_OUT_ODM)/etc/audio/lvimfs_params/LVIMFS_Parameter_ID12_HE_APP1.txt \
+    vendor/oplus/mt6893-common/proprietary/odm/etc/audio/lvimfs_params/LVIMFS_Parameter_ID13_HE_APP2.txt:$(TARGET_COPY_OUT_ODM)/etc/audio/lvimfs_params/LVIMFS_Parameter_ID13_HE_APP2.txt \
+    vendor/oplus/mt6893-common/proprietary/odm/etc/audio/lvimfs_params/LVIMFS_Parameter_ID14_HE_Cam.txt:$(TARGET_COPY_OUT_ODM)/etc/audio/lvimfs_params/LVIMFS_Parameter_ID14_HE_Cam.txt \
+    vendor/oplus/mt6893-common/proprietary/odm/etc/audio/lvimfs_params/LVIMFS_Parameter_ID15_HE_Conference.txt:$(TARGET_COPY_OUT_ODM)/etc/audio/lvimfs_params/LVIMFS_Parameter_ID15_HE_Conference.txt \
+    vendor/oplus/mt6893-common/proprietary/odm/etc/audio/lvimfs_params/LVIMFS_Parameter_ID16_HE_Fast.txt:$(TARGET_COPY_OUT_ODM)/etc/audio/lvimfs_params/LVIMFS_Parameter_ID16_HE_Fast.txt \
+    vendor/oplus/mt6893-common/proprietary/odm/etc/audio/lvimfs_params/LVIMFS_Parameter_ID17_HE_Interview.txt:$(TARGET_COPY_OUT_ODM)/etc/audio/lvimfs_params/LVIMFS_Parameter_ID17_HE_Interview.txt \
+    vendor/oplus/mt6893-common/proprietary/odm/etc/audio/lvimfs_params/LVIMFS_Parameter_ID18_HE_Unprocess.txt:$(TARGET_COPY_OUT_ODM)/etc/audio/lvimfs_params/LVIMFS_Parameter_ID18_HE_Unprocess.txt \
+    vendor/oplus/mt6893-common/proprietary/odm/etc/audio/lvimfs_params/LVIMFS_Parameter_ID19_HE_Voice.txt:$(TARGET_COPY_OUT_ODM)/etc/audio/lvimfs_params/LVIMFS_Parameter_ID19_HE_Voice.txt \
+    vendor/oplus/mt6893-common/proprietary/odm/etc/audio/lvimfs_params/LVIMFS_Parameter_ID1_MIC_Normal.txt:$(TARGET_COPY_OUT_ODM)/etc/audio/lvimfs_params/LVIMFS_Parameter_ID1_MIC_Normal.txt \
+    vendor/oplus/mt6893-common/proprietary/odm/etc/audio/lvimfs_params/LVIMFS_Parameter_ID20_HE_VR.txt:$(TARGET_COPY_OUT_ODM)/etc/audio/lvimfs_params/LVIMFS_Parameter_ID20_HE_VR.txt \
+    vendor/oplus/mt6893-common/proprietary/odm/etc/audio/lvimfs_params/LVIMFS_Parameter_ID21_USB_Normal.txt:$(TARGET_COPY_OUT_ODM)/etc/audio/lvimfs_params/LVIMFS_Parameter_ID21_USB_Normal.txt \
+    vendor/oplus/mt6893-common/proprietary/odm/etc/audio/lvimfs_params/LVIMFS_Parameter_ID22_USB_APP1.txt:$(TARGET_COPY_OUT_ODM)/etc/audio/lvimfs_params/LVIMFS_Parameter_ID22_USB_APP1.txt \
+    vendor/oplus/mt6893-common/proprietary/odm/etc/audio/lvimfs_params/LVIMFS_Parameter_ID23_BT_Normal.txt:$(TARGET_COPY_OUT_ODM)/etc/audio/lvimfs_params/LVIMFS_Parameter_ID23_BT_Normal.txt \
+    vendor/oplus/mt6893-common/proprietary/odm/etc/audio/lvimfs_params/LVIMFS_Parameter_ID24_BT_APP1.txt:$(TARGET_COPY_OUT_ODM)/etc/audio/lvimfs_params/LVIMFS_Parameter_ID24_BT_APP1.txt \
+    vendor/oplus/mt6893-common/proprietary/odm/etc/audio/lvimfs_params/LVIMFS_Parameter_ID2_MIC_APP1.txt:$(TARGET_COPY_OUT_ODM)/etc/audio/lvimfs_params/LVIMFS_Parameter_ID2_MIC_APP1.txt \
+    vendor/oplus/mt6893-common/proprietary/odm/etc/audio/lvimfs_params/LVIMFS_Parameter_ID3_MIC_APP2.txt:$(TARGET_COPY_OUT_ODM)/etc/audio/lvimfs_params/LVIMFS_Parameter_ID3_MIC_APP2.txt \
+    vendor/oplus/mt6893-common/proprietary/odm/etc/audio/lvimfs_params/LVIMFS_Parameter_ID4_MIC_Cam.txt:$(TARGET_COPY_OUT_ODM)/etc/audio/lvimfs_params/LVIMFS_Parameter_ID4_MIC_Cam.txt \
+    vendor/oplus/mt6893-common/proprietary/odm/etc/audio/lvimfs_params/LVIMFS_Parameter_ID5_MIC_Conference.txt:$(TARGET_COPY_OUT_ODM)/etc/audio/lvimfs_params/LVIMFS_Parameter_ID5_MIC_Conference.txt \
+    vendor/oplus/mt6893-common/proprietary/odm/etc/audio/lvimfs_params/LVIMFS_Parameter_ID6_MIC_Fast.txt:$(TARGET_COPY_OUT_ODM)/etc/audio/lvimfs_params/LVIMFS_Parameter_ID6_MIC_Fast.txt \
+    vendor/oplus/mt6893-common/proprietary/odm/etc/audio/lvimfs_params/LVIMFS_Parameter_ID7_MIC_Interview.txt:$(TARGET_COPY_OUT_ODM)/etc/audio/lvimfs_params/LVIMFS_Parameter_ID7_MIC_Interview.txt \
+    vendor/oplus/mt6893-common/proprietary/odm/etc/audio/lvimfs_params/LVIMFS_Parameter_ID8_MIC_Unprocess.txt:$(TARGET_COPY_OUT_ODM)/etc/audio/lvimfs_params/LVIMFS_Parameter_ID8_MIC_Unprocess.txt \
+    vendor/oplus/mt6893-common/proprietary/odm/etc/audio/lvimfs_params/LVIMFS_Parameter_ID9_MIC_Voice.txt:$(TARGET_COPY_OUT_ODM)/etc/audio/lvimfs_params/LVIMFS_Parameter_ID9_MIC_Voice.txt \
     vendor/oplus/mt6893-common/proprietary/odm/etc/audio/nxp/Phone_bt_bt.bin:$(TARGET_COPY_OUT_ODM)/etc/audio/nxp/Phone_bt_bt.bin \
     vendor/oplus/mt6893-common/proprietary/odm/etc/audio/nxp/Phone_hsmic_hs.bin:$(TARGET_COPY_OUT_ODM)/etc/audio/nxp/Phone_hsmic_hs.bin \
     vendor/oplus/mt6893-common/proprietary/odm/etc/audio/nxp/Phone_mic_hp.bin:$(TARGET_COPY_OUT_ODM)/etc/audio/nxp/Phone_mic_hp.bin \
@@ -1060,16 +1086,16 @@ PRODUCT_PACKAGES += \
     mediatek-telephony-common \
     com.android.hotwordenrollment.common.util \
     vendor.oplus.hardware.performance-V1.0-java \
-    android.hardware.neuralnetworks@1.3-service-mtk-mdla-dsp-gpu \
-    android.hardware.wifi@1.0-service \
-    lbs_hidl_service@1.0 \
-    manifest_android.hardware.drm@1.4-service.widevine \
-    manifest_hwcomposer \
-    manifest_media_c2_V1_1_default \
-    manifest_oplusSensor \
-    manifest_oplus_charger \
-    manifest_oplus_fingerprint \
-    manifest_oplus_performance
+    android.hardware.neuralnetworks@1.3-service-mtk-mdla-dsp-gpu.xml \
+    android.hardware.wifi@1.0-service.xml \
+    lbs_hidl_service@1.0.xml \
+    manifest_android.hardware.drm@1.4-service.widevine.xml \
+    manifest_hwcomposer.xml \
+    manifest_media_c2_V1_1_default.xml \
+    manifest_oplusSensor.xml \
+    manifest_oplus_charger.xml \
+    manifest_oplus_fingerprint.xml \
+    manifest_oplus_performance.xml
 
 PRODUCT_PACKAGES += \
     libGLES_mali_libGLES_mali_symlink32 \

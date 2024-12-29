@@ -1134,4 +1134,5 @@ PRODUCT_PACKAGES += \
     libneuron_runtime.5_libneuron_runtime.5_symlink64 \
     libneuron_runtime_ibneuron_runtime_symlink64 \
     libnir_neon_driver_libnir_neon_driver_symlink64 \
+    vendor.oplus.hardware.olc@2.0-service \
     libpq_prot_libpq_prot_symlink64
